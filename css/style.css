@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+@font-face {
+	font-family: "StagSans";
+	src: url("../fonts/StagSans-Regular.woff2") format("woff2"), url("../fonts/StagSans-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "StagSans";
+	src: url("../fonts/StagSans-Italic.woff2") format("woff2"), url("../fonts/StagSans-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "StagSans";
+	src: url("../fonts/StagSans-Bold.woff2") format("woff2"), url("../fonts/StagSans-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "StagSans";
+	src: url("../fonts/StagSans-Black.woff2") format("woff2"), url("../fonts/StagSans-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "StagSans";
+	src: url("../fonts/StagSans-BlackItalic.woff2") format("woff2"), url("../fonts/StagSans-BlackItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: italic;
+}
+
+
+.tytle,
+.author,
+.analys {
+    font-family:  'StagSans' ;
+
+}
+
+.history,
+.heroes,
+.problems,
+.features
+{
+    font-family:  'Montserrat', sans-serif;
+}
+
+header {
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 700;
+    text-decoration: line-through;
+}
+
+.tytle {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 24px;
+    color: brown;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.author h2 { 
+   font-weight: 700;
+   font-size: 20px;
+   color: rgba(95, 158, 160, 0.796);
+   text-align: center;
+   margin-top: 20px;
+   text-decoration: overline;
+
+}
+
+.author p {
+    font-style: italic;
+    padding: 15px;
+    
+}
+
+.author img {
+    padding-left: 20px;
+}
+
+.topic,
+.idea p  { margin: 20px 0px 20px 5px;
+    font-size: 20px;
+}
+
+.topic p {
+     color: rgba(28, 118, 160, 0.5); 
+    letter-spacing: 5px;
+    }
+
+.idea p { 
+     color: chocolate;
+     white-space: nowrap;
+
+}
+.composition p{
+    font-style: italic;
+    color: darkkhaki;
+    text-indent: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-shadow: -3px 2px 2px #000;
+}
+.composition ul { margin-top: 40px;}
+
+.composition li {
+        font-weight: 900;
+        padding: 15px;
+        text-transform: lowercase;
+}
+
+.heroes h2 {
+    font-weight: 900;
+    margin: 20px;
+    text-decoration: overline;
+    text-transform: capitalize;
+    background-color: bisque;
+    width: 300px;
+}
+
+.heroes li {
+    color: lightseagreen;
+    text-shadow: 2px 1px 7px rgb(17, 198, 137);
+    letter-spacing: 4px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+.problems p { margin: 20px;
+            color: darkgreen;
+            text-transform: capitalize;
+            text-indent: 10px;
+            font-size: 20px;
+            font-style: italic;
+}
+
+.features {font-weight: 700;
+            margin: 30px;
+            width: 2000px;
+            background-color: bisque;
+}
+
+.history { font-weight: 700;
+            line-height: 40px;
+            text-decoration: underline;
+            text-align: justify;
+            margin: 20px;
+}
+
+footer {
+    text-align: right;
+    text-decoration: line-through;
+    color: dodgerblue;
+    text-transform: uppercase;
+}
